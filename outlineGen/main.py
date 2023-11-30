@@ -5,7 +5,7 @@ import re
 
 app = Flask(__name__)
 openai.api_key = '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'
-app.config["SECRET_KEY"] = "ADSFASDFASDFASDF34A78ADSFHJASDH333"
+app.config["SECRET_KEY"] = "ADSFASDFASDFASDF34"
 
 
 @app.route('/', methods=['GET', 'POST'])
